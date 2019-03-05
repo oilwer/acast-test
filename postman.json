@@ -1,0 +1,52 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Acast",
+		"_postman_id": "61d4d59b-8e33-66f6-fb24-465485eb57a3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/rss/episodes",
+			"request": {
+				"url": "localhost:3000/rss/episodes",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "rss_url",
+							"value": "https://rss.acast.com/ftnewsbriefing",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
