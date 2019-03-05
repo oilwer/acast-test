@@ -1,0 +1,22 @@
+{
+  "name": "acast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 30000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "rss-parser": "^3.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
